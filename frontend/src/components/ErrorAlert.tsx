@@ -11,9 +11,9 @@ interface Props {
 
 const SUGGESTIONS: Record<string, string[]> = {
   OCR: [
-    "이미지 해상도가 너무 낮지 않은지 확인하세요 (권장: 1000px 이상)",
     "텍스트가 선명하게 보이는지 확인하세요",
     "이미지가 너무 기울어지지 않았는지 확인하세요",
+    "백엔드 서버가 실행 중인지 확인하세요 (http://localhost:8000/health)",
   ],
   인페인팅: [
     "dilation_kernel 값을 줄여서 다시 시도해보세요",

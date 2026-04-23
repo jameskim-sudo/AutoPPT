@@ -105,9 +105,26 @@ def _split_into_lines(text: str, bbox_w: float, font_size_pt: float) -> List[str
     return lines if lines else [text]
 
 
+def _upscale_if_small(img: np.ndarray, min_side: int = 640) -> np.ndarray:
+    """
+    짧은 변이 min_side 미만이면 비율을 유지하며 업스케일한다.
+    PaddleOCR은 너무 작은 이미지에서 정확도가 낮으므로 전처리로 보완한다.
+    """
+    h, w = img.shape[:2]
+    short = min(h, w)
+    if short >= min_side:
+        return img
+    scale = min_side / short
+    new_w = max(1, int(w * scale))
+    new_h = max(1, int(h * scale))
+    return cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_CUBIC)
+
+
 def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
     """
     이미지를 분석하여 (image_width, image_height, blocks) 를 반환한다.
+
+    작은 이미지도 자동 업스케일 후 OCR 처리 → 좌표는 원본 기준으로 역변환.
 
     blocks 각 항목:
       {
@@ -119,22 +136,36 @@ def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
     if img is None:
         raise ValueError(f"이미지를 읽을 수 없습니다: {image_path}")
 
-    img_h, img_w = img.shape[:2]
+    orig_h, orig_w = img.shape[:2]
+
+    # 작은 이미지 업스케일 (OCR 정확도 향상)
+    img_scaled = _upscale_if_small(img, min_side=640)
+    scaled_h, scaled_w = img_scaled.shape[:2]
+    scale_x = orig_w / scaled_w  # 좌표 역변환 비율
+    scale_y = orig_h / scaled_h
+
+    # 업스케일된 이미지를 임시 파일로 저장 (PaddleOCR은 경로를 받음)
+    import tempfile, os
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+        tmp_path = tmp.name
+    cv2.imwrite(tmp_path, img_scaled)
 
     # OCR 실행
     try:
         ocr = _get_ocr()
-        raw = ocr.ocr(image_path, cls=True)
+        raw = ocr.ocr(tmp_path, cls=True)
     except Exception as exc:
         logger.error("OCR 실패: %s", exc)
         raise RuntimeError(f"OCR 처리 중 오류 발생: {exc}") from exc
+    finally:
+        os.unlink(tmp_path)
 
     if not raw or not raw[0]:
         logger.warning("OCR 결과 없음: %s", image_path)
-        return img_w, img_h, []
+        return orig_w, orig_h, []
 
-    # 슬라이드 기준 좌표 (폰트 크기 추정에 사용)
-    slide_w_emu, slide_h_emu = calc_slide_dimensions(img_w, img_h)
+    # 슬라이드 기준 좌표 (폰트 크기 추정에 사용) — 원본 크기 기준
+    slide_w_emu, slide_h_emu = calc_slide_dimensions(orig_w, orig_h)
 
     blocks: List[dict] = []
     for idx, line in enumerate(raw[0]):
@@ -142,28 +173,32 @@ def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
             continue
         box_points, (text, conf) = line
 
-        # 좌표 변환
+        # 스케일된 좌표 → 원본 좌표로 역변환
         x, y, w, h = _box_to_xywh(box_points)
+        x *= scale_x
+        y *= scale_y
+        w *= scale_x
+        h *= scale_y
 
         # 이미지 경계 안으로 클램핑
-        x = max(0.0, min(x, img_w - 1))
-        y = max(0.0, min(y, img_h - 1))
-        w = min(w, img_w - x)
-        h = min(h, img_h - y)
+        x = max(0.0, min(x, orig_w - 1))
+        y = max(0.0, min(y, orig_h - 1))
+        w = min(w, orig_w - x)
+        h = min(h, orig_h - y)
 
-        if w <= 2 or h <= 2:
+        if w <= 1 or h <= 1:
             continue
 
         text = text.strip()
         if not text:
             continue
 
-        # 속성 추정
+        # 속성 추정 (원본 이미지 기준)
         line_count = max(1, text.count("\n") + 1)
-        font_size = estimate_font_size_pt(h, img_h, slide_h_emu, line_count)
+        font_size = estimate_font_size_pt(h, orig_h, slide_h_emu, line_count)
         color = estimate_text_color(img, int(x), int(y), int(w), int(h))
         bold = is_likely_bold(h, font_size)
-        align = _estimate_alignment(x, w, img_w)
+        align = _estimate_alignment(x, w, orig_w)
         line_breaks = _split_into_lines(text, w, font_size)
 
         blocks.append(
@@ -182,5 +217,5 @@ def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
             }
         )
 
-    logger.info("OCR 완료: %d 블록 검출", len(blocks))
-    return img_w, img_h, blocks
+    logger.info("OCR 완료: %d 블록 검출 (원본 %dx%d)", len(blocks), orig_w, orig_h)
+    return orig_w, orig_h, blocks
