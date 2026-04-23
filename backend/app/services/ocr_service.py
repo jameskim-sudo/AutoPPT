@@ -22,19 +22,45 @@ logger = logging.getLogger(__name__)
 _ocr_instance: Optional[object] = None
 
 
+def _safe_model_dir() -> str:
+    """
+    Windows 한글 사용자명 경로 문제를 우회한다.
+
+    PaddleOCR 내부 Paddle Inference(C++) 엔진은 한글이 포함된 경로를
+    열지 못하는 버그가 있다. 항상 ASCII 전용 경로에 모델을 저장한다.
+      Windows → C:\paddleocr_models
+      Linux/Mac → ~/.paddleocr_models
+    """
+    import platform
+    if platform.system() == "Windows":
+        import os
+        drive = os.environ.get("SYSTEMDRIVE", "C:")
+        base = os.path.join(drive, os.sep, "paddleocr_models")
+    else:
+        import os
+        base = os.path.expanduser("~/.paddleocr_models")
+    os.makedirs(base, exist_ok=True)
+    return base
+
+
 def _get_ocr():
     global _ocr_instance
     if _ocr_instance is None:
+        import os
         from paddleocr import PaddleOCR  # type: ignore
 
-        logger.info("PaddleOCR 초기화 중...")
+        safe_dir = _safe_model_dir()
+        logger.info("PaddleOCR 초기화 중... (모델 경로: %s)", safe_dir)
+
         _ocr_instance = PaddleOCR(
             use_angle_cls=True,
             lang="korean",        # 한국어 + 영어 혼합
             use_gpu=False,
             show_log=False,
-            ocr_version="PP-OCRv4",
-            rec_batch_num=6,
+            # 한글 경로 우회: ASCII 전용 경로에 모델 저장
+            det_model_dir=os.path.join(safe_dir, "det"),
+            rec_model_dir=os.path.join(safe_dir, "rec"),
+            cls_model_dir=os.path.join(safe_dir, "cls"),
         )
         logger.info("PaddleOCR 초기화 완료")
     return _ocr_instance
