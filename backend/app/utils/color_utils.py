@@ -6,6 +6,8 @@ import numpy as np
 import cv2
 from typing import Tuple
 
+# image_io는 여기서 직접 import 하지 않음 — color_utils는 ndarray를 받으므로 불필요
+
 
 def hex_to_rgb(hex_color: str) -> Tuple[int, int, int]:
     """#rrggbb → (r, g, b)"""

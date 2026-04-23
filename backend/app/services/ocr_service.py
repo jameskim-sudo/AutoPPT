@@ -5,6 +5,8 @@ OCR 서비스 — PaddleOCR 기반 텍스트 검출 및 속성 추정
 """
 
 import logging
+import os
+import tempfile
 from pathlib import Path
 from typing import List, Optional
 import numpy as np
@@ -15,6 +17,7 @@ from app.utils.coordinate_transform import (
     calc_slide_dimensions,
     estimate_font_size_pt,
 )
+from app.utils.image_io import imread, imwrite
 
 logger = logging.getLogger(__name__)
 
@@ -22,25 +25,34 @@ logger = logging.getLogger(__name__)
 _ocr_instance: Optional[object] = None
 
 
-def _safe_model_dir() -> str:
+def _ascii_base_dir() -> str:
     """
-    Windows 한글 사용자명 경로 문제를 우회한다.
+    항상 ASCII 문자만 포함된 기본 경로를 반환한다.
 
-    PaddleOCR 내부 Paddle Inference(C++) 엔진은 한글이 포함된 경로를
-    열지 못하는 버그가 있다. 항상 ASCII 전용 경로에 모델을 저장한다.
-      Windows → C:\paddleocr_models
-      Linux/Mac → ~/.paddleocr_models
+    Windows 한글 사용자명 경로 문제를 우회하기 위해
+    드라이브 루트 바로 아래의 ASCII 경로를 사용한다.
+      Windows → C:\paddleocr
+      Linux/Mac → /tmp/paddleocr
     """
     import platform
     if platform.system() == "Windows":
-        import os
         drive = os.environ.get("SYSTEMDRIVE", "C:")
-        base = os.path.join(drive, os.sep, "paddleocr_models")
+        base = os.path.join(drive, os.sep, "paddleocr")
     else:
-        import os
-        base = os.path.expanduser("~/.paddleocr_models")
+        base = "/tmp/paddleocr"
     os.makedirs(base, exist_ok=True)
     return base
+
+
+def _safe_model_dir() -> str:
+    return os.path.join(_ascii_base_dir(), "models")
+
+
+def _safe_tmp_dir() -> str:
+    """PaddleOCR에 넘길 임시 이미지를 저장할 ASCII 경로 디렉터리."""
+    d = os.path.join(_ascii_base_dir(), "tmp")
+    os.makedirs(d, exist_ok=True)
+    return d
 
 
 def _get_ocr():
@@ -158,10 +170,7 @@ def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
         bold, italic, color, align, lineBreaks, confidence
       }
     """
-    img = cv2.imread(image_path)
-    if img is None:
-        raise ValueError(f"이미지를 읽을 수 없습니다: {image_path}")
-
+    img = imread(image_path)
     orig_h, orig_w = img.shape[:2]
 
     # 작은 이미지 업스케일 (OCR 정확도 향상)
@@ -170,11 +179,10 @@ def analyze_image(image_path: str) -> tuple[int, int, List[dict]]:
     scale_x = orig_w / scaled_w  # 좌표 역변환 비율
     scale_y = orig_h / scaled_h
 
-    # 업스케일된 이미지를 임시 파일로 저장 (PaddleOCR은 경로를 받음)
-    import tempfile, os
-    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+    # 업스케일된 이미지를 ASCII 전용 임시 경로에 저장 (PaddleOCR C++ 엔진 호환)
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False, dir=_safe_tmp_dir()) as tmp:
         tmp_path = tmp.name
-    cv2.imwrite(tmp_path, img_scaled)
+    imwrite(tmp_path, img_scaled)
 
     # OCR 실행
     try:

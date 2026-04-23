@@ -13,6 +13,8 @@ from typing import List
 import numpy as np
 import cv2
 
+from app.utils.image_io import imread, imwrite
+
 logger = logging.getLogger(__name__)
 
 
@@ -79,9 +81,7 @@ def remove_text(
     Returns:
         텍스트가 제거된 BGR numpy array
     """
-    img = cv2.imread(image_path)
-    if img is None:
-        raise ValueError(f"이미지를 읽을 수 없습니다: {image_path}")
+    img = imread(image_path)
 
     h, w = img.shape[:2]
     logger.info("인페인트 시작: %dx%d, 블록=%d", w, h, len(blocks))
@@ -101,7 +101,5 @@ def remove_text(
 
 
 def save_cleaned_image(cleaned: np.ndarray, output_path: str) -> None:
-    """인페인트 결과를 PNG로 저장한다."""
-    ok = cv2.imwrite(output_path, cleaned)
-    if not ok:
-        raise IOError(f"클린 이미지 저장 실패: {output_path}")
+    """인페인트 결과를 PNG로 저장한다 (한글 경로 호환)."""
+    imwrite(output_path, cleaned, ext=".png")
