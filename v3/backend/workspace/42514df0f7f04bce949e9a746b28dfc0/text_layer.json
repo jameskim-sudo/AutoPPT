@@ -1,0 +1,2647 @@
+{
+  "session_id": "42514df0f7f04bce949e9a746b28dfc0",
+  "image_width": 960,
+  "image_height": 651,
+  "blocks": [
+    {
+      "id": "text-000",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 431,
+        "y": 19,
+        "w": 21,
+        "h": 32
+      },
+      "polygon": [
+        [
+          431,
+          19
+        ],
+        [
+          452,
+          19
+        ],
+        [
+          452,
+          51
+        ],
+        [
+          431,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.832,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-001",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 755,
+        "y": 19,
+        "w": 22,
+        "h": 24
+      },
+      "polygon": [
+        [
+          755,
+          19
+        ],
+        [
+          777,
+          19
+        ],
+        [
+          777,
+          43
+        ],
+        [
+          755,
+          43
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.842,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-002",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 214,
+        "y": 20,
+        "w": 23,
+        "h": 31
+      },
+      "polygon": [
+        [
+          214,
+          20
+        ],
+        [
+          237,
+          20
+        ],
+        [
+          237,
+          51
+        ],
+        [
+          214,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.846,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-003",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 267,
+        "y": 20,
+        "w": 24,
+        "h": 21
+      },
+      "polygon": [
+        [
+          267,
+          20
+        ],
+        [
+          291,
+          20
+        ],
+        [
+          291,
+          41
+        ],
+        [
+          267,
+          41
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-004",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 299,
+        "y": 20,
+        "w": 47,
+        "h": 31
+      },
+      "polygon": [
+        [
+          299,
+          20
+        ],
+        [
+          346,
+          20
+        ],
+        [
+          346,
+          51
+        ],
+        [
+          299,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.83,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-005",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 376,
+        "y": 20,
+        "w": 21,
+        "h": 31
+      },
+      "polygon": [
+        [
+          376,
+          20
+        ],
+        [
+          397,
+          20
+        ],
+        [
+          397,
+          51
+        ],
+        [
+          376,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.756,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-006",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 422,
+        "y": 20,
+        "w": 8,
+        "h": 23
+      },
+      "polygon": [
+        [
+          422,
+          20
+        ],
+        [
+          430,
+          20
+        ],
+        [
+          430,
+          43
+        ],
+        [
+          422,
+          43
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-007",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 473,
+        "y": 20,
+        "w": 9,
+        "h": 31
+      },
+      "polygon": [
+        [
+          473,
+          20
+        ],
+        [
+          482,
+          20
+        ],
+        [
+          482,
+          51
+        ],
+        [
+          473,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.842,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-008",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 585,
+        "y": 20,
+        "w": 23,
+        "h": 31
+      },
+      "polygon": [
+        [
+          585,
+          20
+        ],
+        [
+          608,
+          20
+        ],
+        [
+          608,
+          51
+        ],
+        [
+          585,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.843,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-009",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 671,
+        "y": 20,
+        "w": 22,
+        "h": 31
+      },
+      "polygon": [
+        [
+          671,
+          20
+        ],
+        [
+          693,
+          20
+        ],
+        [
+          693,
+          51
+        ],
+        [
+          671,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.3,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-010",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 700,
+        "y": 20,
+        "w": 48,
+        "h": 32
+      },
+      "polygon": [
+        [
+          700,
+          20
+        ],
+        [
+          748,
+          20
+        ],
+        [
+          748,
+          52
+        ],
+        [
+          700,
+          52
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.748,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-011",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 779,
+        "y": 20,
+        "w": 23,
+        "h": 31
+      },
+      "polygon": [
+        [
+          779,
+          20
+        ],
+        [
+          802,
+          20
+        ],
+        [
+          802,
+          51
+        ],
+        [
+          779,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.781,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-012",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 166,
+        "y": 21,
+        "w": 23,
+        "h": 15
+      },
+      "polygon": [
+        [
+          166,
+          21
+        ],
+        [
+          189,
+          21
+        ],
+        [
+          189,
+          36
+        ],
+        [
+          166,
+          36
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-013",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 352,
+        "y": 21,
+        "w": 23,
+        "h": 30
+      },
+      "polygon": [
+        [
+          352,
+          21
+        ],
+        [
+          375,
+          21
+        ],
+        [
+          375,
+          51
+        ],
+        [
+          352,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.789,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-014",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 406,
+        "y": 21,
+        "w": 15,
+        "h": 17
+      },
+      "polygon": [
+        [
+          406,
+          21
+        ],
+        [
+          421,
+          21
+        ],
+        [
+          421,
+          38
+        ],
+        [
+          406,
+          38
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-015",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 509,
+        "y": 21,
+        "w": 21,
+        "h": 18
+      },
+      "polygon": [
+        [
+          509,
+          21
+        ],
+        [
+          530,
+          21
+        ],
+        [
+          530,
+          39
+        ],
+        [
+          509,
+          39
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.745,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-016",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 192,
+        "y": 22,
+        "w": 19,
+        "h": 18
+      },
+      "polygon": [
+        [
+          192,
+          22
+        ],
+        [
+          211,
+          22
+        ],
+        [
+          211,
+          40
+        ],
+        [
+          192,
+          40
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-017",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 245,
+        "y": 22,
+        "w": 15,
+        "h": 23
+      },
+      "polygon": [
+        [
+          245,
+          22
+        ],
+        [
+          260,
+          22
+        ],
+        [
+          260,
+          45
+        ],
+        [
+          245,
+          45
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.799,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-018",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 460,
+        "y": 22,
+        "w": 16,
+        "h": 23
+      },
+      "polygon": [
+        [
+          460,
+          22
+        ],
+        [
+          476,
+          22
+        ],
+        [
+          476,
+          45
+        ],
+        [
+          460,
+          45
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.835,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-019",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 485,
+        "y": 22,
+        "w": 14,
+        "h": 23
+      },
+      "polygon": [
+        [
+          485,
+          22
+        ],
+        [
+          499,
+          22
+        ],
+        [
+          499,
+          45
+        ],
+        [
+          485,
+          45
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-020",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 561,
+        "y": 22,
+        "w": 14,
+        "h": 24
+      },
+      "polygon": [
+        [
+          561,
+          22
+        ],
+        [
+          575,
+          22
+        ],
+        [
+          575,
+          46
+        ],
+        [
+          561,
+          46
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.837,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-021",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 617,
+        "y": 22,
+        "w": 13,
+        "h": 23
+      },
+      "polygon": [
+        [
+          617,
+          22
+        ],
+        [
+          630,
+          22
+        ],
+        [
+          630,
+          45
+        ],
+        [
+          617,
+          45
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-022",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 639,
+        "y": 22,
+        "w": 24,
+        "h": 26
+      },
+      "polygon": [
+        [
+          639,
+          22
+        ],
+        [
+          663,
+          22
+        ],
+        [
+          663,
+          48
+        ],
+        [
+          639,
+          48
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.85,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-023",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 169,
+        "y": 37,
+        "w": 19,
+        "h": 14
+      },
+      "polygon": [
+        [
+          169,
+          37
+        ],
+        [
+          188,
+          37
+        ],
+        [
+          188,
+          51
+        ],
+        [
+          169,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.545,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-024",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 270,
+        "y": 38,
+        "w": 19,
+        "h": 13
+      },
+      "polygon": [
+        [
+          270,
+          38
+        ],
+        [
+          289,
+          38
+        ],
+        [
+          289,
+          51
+        ],
+        [
+          270,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.691,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-025",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 409,
+        "y": 40,
+        "w": 18,
+        "h": 11
+      },
+      "polygon": [
+        [
+          409,
+          40
+        ],
+        [
+          427,
+          40
+        ],
+        [
+          427,
+          51
+        ],
+        [
+          409,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-026",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 759,
+        "y": 40,
+        "w": 18,
+        "h": 11
+      },
+      "polygon": [
+        [
+          759,
+          40
+        ],
+        [
+          777,
+          40
+        ],
+        [
+          777,
+          51
+        ],
+        [
+          759,
+          51
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.542,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-027",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 187,
+        "y": 62,
+        "w": 48,
+        "h": 30
+      },
+      "polygon": [
+        [
+          187,
+          62
+        ],
+        [
+          235,
+          62
+        ],
+        [
+          235,
+          92
+        ],
+        [
+          187,
+          92
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.506,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-028",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 246,
+        "y": 69,
+        "w": 10,
+        "h": 17
+      },
+      "polygon": [
+        [
+          246,
+          69
+        ],
+        [
+          256,
+          69
+        ],
+        [
+          256,
+          86
+        ],
+        [
+          246,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-029",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 280,
+        "y": 69,
+        "w": 15,
+        "h": 17
+      },
+      "polygon": [
+        [
+          280,
+          69
+        ],
+        [
+          295,
+          69
+        ],
+        [
+          295,
+          86
+        ],
+        [
+          280,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-030",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 310,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          310,
+          69
+        ],
+        [
+          321,
+          69
+        ],
+        [
+          321,
+          86
+        ],
+        [
+          310,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-031",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 325,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          325,
+          69
+        ],
+        [
+          336,
+          69
+        ],
+        [
+          336,
+          86
+        ],
+        [
+          325,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-032",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 336,
+        "y": 69,
+        "w": 12,
+        "h": 17
+      },
+      "polygon": [
+        [
+          336,
+          69
+        ],
+        [
+          348,
+          69
+        ],
+        [
+          348,
+          86
+        ],
+        [
+          336,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-033",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 351,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          351,
+          69
+        ],
+        [
+          362,
+          69
+        ],
+        [
+          362,
+          86
+        ],
+        [
+          351,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-034",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 363,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          363,
+          69
+        ],
+        [
+          374,
+          69
+        ],
+        [
+          374,
+          86
+        ],
+        [
+          363,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-035",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 416,
+        "y": 69,
+        "w": 23,
+        "h": 17
+      },
+      "polygon": [
+        [
+          416,
+          69
+        ],
+        [
+          439,
+          69
+        ],
+        [
+          439,
+          86
+        ],
+        [
+          416,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-036",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 459,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          459,
+          69
+        ],
+        [
+          470,
+          69
+        ],
+        [
+          470,
+          86
+        ],
+        [
+          459,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-037",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 560,
+        "y": 69,
+        "w": 39,
+        "h": 17
+      },
+      "polygon": [
+        [
+          560,
+          69
+        ],
+        [
+          599,
+          69
+        ],
+        [
+          599,
+          86
+        ],
+        [
+          560,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-038",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 602,
+        "y": 69,
+        "w": 23,
+        "h": 17
+      },
+      "polygon": [
+        [
+          602,
+          69
+        ],
+        [
+          625,
+          69
+        ],
+        [
+          625,
+          86
+        ],
+        [
+          602,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-039",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 667,
+        "y": 69,
+        "w": 23,
+        "h": 17
+      },
+      "polygon": [
+        [
+          667,
+          69
+        ],
+        [
+          690,
+          69
+        ],
+        [
+          690,
+          86
+        ],
+        [
+          667,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-040",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 694,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          694,
+          69
+        ],
+        [
+          705,
+          69
+        ],
+        [
+          705,
+          86
+        ],
+        [
+          694,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-041",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 709,
+        "y": 69,
+        "w": 12,
+        "h": 17
+      },
+      "polygon": [
+        [
+          709,
+          69
+        ],
+        [
+          721,
+          69
+        ],
+        [
+          721,
+          86
+        ],
+        [
+          709,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-042",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 720,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          720,
+          69
+        ],
+        [
+          731,
+          69
+        ],
+        [
+          731,
+          86
+        ],
+        [
+          720,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-043",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 735,
+        "y": 69,
+        "w": 11,
+        "h": 17
+      },
+      "polygon": [
+        [
+          735,
+          69
+        ],
+        [
+          746,
+          69
+        ],
+        [
+          746,
+          86
+        ],
+        [
+          735,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-044",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 762,
+        "y": 69,
+        "w": 23,
+        "h": 17
+      },
+      "polygon": [
+        [
+          762,
+          69
+        ],
+        [
+          785,
+          69
+        ],
+        [
+          785,
+          86
+        ],
+        [
+          762,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-045",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 257,
+        "y": 70,
+        "w": 12,
+        "h": 10
+      },
+      "polygon": [
+        [
+          257,
+          70
+        ],
+        [
+          269,
+          70
+        ],
+        [
+          269,
+          80
+        ],
+        [
+          257,
+          80
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-046",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 298,
+        "y": 70,
+        "w": 12,
+        "h": 16
+      },
+      "polygon": [
+        [
+          298,
+          70
+        ],
+        [
+          310,
+          70
+        ],
+        [
+          310,
+          86
+        ],
+        [
+          298,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-047",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 389,
+        "y": 70,
+        "w": 23,
+        "h": 16
+      },
+      "polygon": [
+        [
+          389,
+          70
+        ],
+        [
+          412,
+          70
+        ],
+        [
+          412,
+          86
+        ],
+        [
+          389,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-048",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 447,
+        "y": 70,
+        "w": 13,
+        "h": 16
+      },
+      "polygon": [
+        [
+          447,
+          70
+        ],
+        [
+          460,
+          70
+        ],
+        [
+          460,
+          86
+        ],
+        [
+          447,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.689,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-049",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 476,
+        "y": 70,
+        "w": 12,
+        "h": 16
+      },
+      "polygon": [
+        [
+          476,
+          70
+        ],
+        [
+          488,
+          70
+        ],
+        [
+          488,
+          86
+        ],
+        [
+          476,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-050",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 491,
+        "y": 70,
+        "w": 12,
+        "h": 16
+      },
+      "polygon": [
+        [
+          491,
+          70
+        ],
+        [
+          503,
+          70
+        ],
+        [
+          503,
+          86
+        ],
+        [
+          491,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-051",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 503,
+        "y": 70,
+        "w": 11,
+        "h": 16
+      },
+      "polygon": [
+        [
+          503,
+          70
+        ],
+        [
+          514,
+          70
+        ],
+        [
+          514,
+          86
+        ],
+        [
+          503,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-052",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 515,
+        "y": 70,
+        "w": 35,
+        "h": 15
+      },
+      "polygon": [
+        [
+          515,
+          70
+        ],
+        [
+          550,
+          70
+        ],
+        [
+          550,
+          85
+        ],
+        [
+          515,
+          85
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-053",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 553,
+        "y": 70,
+        "w": 10,
+        "h": 15
+      },
+      "polygon": [
+        [
+          553,
+          70
+        ],
+        [
+          563,
+          70
+        ],
+        [
+          563,
+          85
+        ],
+        [
+          553,
+          85
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-054",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 640,
+        "y": 70,
+        "w": 13,
+        "h": 14
+      },
+      "polygon": [
+        [
+          640,
+          70
+        ],
+        [
+          653,
+          70
+        ],
+        [
+          653,
+          84
+        ],
+        [
+          640,
+          84
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-055",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 652,
+        "y": 70,
+        "w": 12,
+        "h": 16
+      },
+      "polygon": [
+        [
+          652,
+          70
+        ],
+        [
+          664,
+          70
+        ],
+        [
+          664,
+          86
+        ],
+        [
+          652,
+          86
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-056",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 747,
+        "y": 70,
+        "w": 12,
+        "h": 15
+      },
+      "polygon": [
+        [
+          747,
+          70
+        ],
+        [
+          759,
+          70
+        ],
+        [
+          759,
+          85
+        ],
+        [
+          747,
+          85
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-057",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 234,
+        "y": 105,
+        "w": 212,
+        "h": 305
+      },
+      "polygon": [
+        [
+          234,
+          105
+        ],
+        [
+          446,
+          105
+        ],
+        [
+          446,
+          410
+        ],
+        [
+          234,
+          410
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.444,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-058",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 451,
+        "y": 105,
+        "w": 237,
+        "h": 306
+      },
+      "polygon": [
+        [
+          451,
+          105
+        ],
+        [
+          688,
+          105
+        ],
+        [
+          688,
+          411
+        ],
+        [
+          451,
+          411
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.447,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-059",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 693,
+        "y": 105,
+        "w": 256,
+        "h": 306
+      },
+      "polygon": [
+        [
+          693,
+          105
+        ],
+        [
+          949,
+          105
+        ],
+        [
+          949,
+          411
+        ],
+        [
+          693,
+          411
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.575,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-060",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 181,
+        "y": 116,
+        "w": 16,
+        "h": 20
+      },
+      "polygon": [
+        [
+          181,
+          116
+        ],
+        [
+          197,
+          116
+        ],
+        [
+          197,
+          136
+        ],
+        [
+          181,
+          136
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.695,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-061",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 11,
+        "y": 151,
+        "w": 215,
+        "h": 259
+      },
+      "polygon": [
+        [
+          11,
+          151
+        ],
+        [
+          226,
+          151
+        ],
+        [
+          226,
+          410
+        ],
+        [
+          11,
+          410
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.722,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-062",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 11,
+        "y": 422,
+        "w": 311,
+        "h": 21
+      },
+      "polygon": [
+        [
+          11,
+          422
+        ],
+        [
+          322,
+          422
+        ],
+        [
+          322,
+          443
+        ],
+        [
+          11,
+          443
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.674,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-063",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 329,
+        "y": 422,
+        "w": 326,
+        "h": 170
+      },
+      "polygon": [
+        [
+          329,
+          422
+        ],
+        [
+          655,
+          422
+        ],
+        [
+          655,
+          592
+        ],
+        [
+          329,
+          592
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.4,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-064",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 660,
+        "y": 422,
+        "w": 289,
+        "h": 170
+      },
+      "polygon": [
+        [
+          660,
+          422
+        ],
+        [
+          949,
+          422
+        ],
+        [
+          949,
+          592
+        ],
+        [
+          660,
+          592
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.709,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-065",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 83,
+        "y": 447,
+        "w": 51,
+        "h": 16
+      },
+      "polygon": [
+        [
+          83,
+          447
+        ],
+        [
+          134,
+          447
+        ],
+        [
+          134,
+          463
+        ],
+        [
+          83,
+          463
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-066",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 245,
+        "y": 447,
+        "w": 58,
+        "h": 16
+      },
+      "polygon": [
+        [
+          245,
+          447
+        ],
+        [
+          303,
+          447
+        ],
+        [
+          303,
+          463
+        ],
+        [
+          245,
+          463
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-067",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 154,
+        "y": 448,
+        "w": 11,
+        "h": 14
+      },
+      "polygon": [
+        [
+          154,
+          448
+        ],
+        [
+          165,
+          448
+        ],
+        [
+          165,
+          462
+        ],
+        [
+          154,
+          462
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-068",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 33,
+        "y": 450,
+        "w": 15,
+        "h": 11
+      },
+      "polygon": [
+        [
+          33,
+          450
+        ],
+        [
+          48,
+          450
+        ],
+        [
+          48,
+          461
+        ],
+        [
+          33,
+          461
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.58,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-069",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 166,
+        "y": 450,
+        "w": 42,
+        "h": 12
+      },
+      "polygon": [
+        [
+          166,
+          450
+        ],
+        [
+          208,
+          450
+        ],
+        [
+          208,
+          462
+        ],
+        [
+          166,
+          462
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-070",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 210,
+        "y": 450,
+        "w": 16,
+        "h": 11
+      },
+      "polygon": [
+        [
+          210,
+          450
+        ],
+        [
+          226,
+          450
+        ],
+        [
+          226,
+          461
+        ],
+        [
+          210,
+          461
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-071",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 69,
+        "y": 466,
+        "w": 79,
+        "h": 20
+      },
+      "polygon": [
+        [
+          69,
+          466
+        ],
+        [
+          148,
+          466
+        ],
+        [
+          148,
+          486
+        ],
+        [
+          69,
+          486
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.626,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-072",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 149,
+        "y": 467,
+        "w": 81,
+        "h": 19
+      },
+      "polygon": [
+        [
+          149,
+          467
+        ],
+        [
+          230,
+          467
+        ],
+        [
+          230,
+          486
+        ],
+        [
+          149,
+          486
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.633,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-073",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 33,
+        "y": 471,
+        "w": 15,
+        "h": 11
+      },
+      "polygon": [
+        [
+          33,
+          471
+        ],
+        [
+          48,
+          471
+        ],
+        [
+          48,
+          482
+        ],
+        [
+          33,
+          482
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.75,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-074",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 253,
+        "y": 471,
+        "w": 15,
+        "h": 10
+      },
+      "polygon": [
+        [
+          253,
+          471
+        ],
+        [
+          268,
+          471
+        ],
+        [
+          268,
+          481
+        ],
+        [
+          253,
+          481
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-075",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 272,
+        "y": 471,
+        "w": 23,
+        "h": 11
+      },
+      "polygon": [
+        [
+          272,
+          471
+        ],
+        [
+          295,
+          471
+        ],
+        [
+          295,
+          482
+        ],
+        [
+          272,
+          482
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.7,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-076",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 69,
+        "y": 487,
+        "w": 79,
+        "h": 20
+      },
+      "polygon": [
+        [
+          69,
+          487
+        ],
+        [
+          148,
+          487
+        ],
+        [
+          148,
+          507
+        ],
+        [
+          69,
+          507
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.525,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-077",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 30,
+        "y": 492,
+        "w": 21,
+        "h": 10
+      },
+      "polygon": [
+        [
+          30,
+          492
+        ],
+        [
+          51,
+          492
+        ],
+        [
+          51,
+          502
+        ],
+        [
+          30,
+          502
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.74,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-078",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 177,
+        "y": 492,
+        "w": 26,
+        "h": 10
+      },
+      "polygon": [
+        [
+          177,
+          492
+        ],
+        [
+          203,
+          492
+        ],
+        [
+          203,
+          502
+        ],
+        [
+          177,
+          502
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.59,
+      "restore_status": "pending"
+    },
+    {
+      "id": "text-079",
+      "text": "(OCR unavailable)",
+      "bbox": {
+        "x": 267,
+        "y": 492,
+        "w": 14,
+        "h": 10
+      },
+      "polygon": [
+        [
+          267,
+          492
+        ],
+        [
+          281,
+          492
+        ],
+        [
+          281,
+          502
+        ],
+        [
+          267,
+          502
+        ]
+      ],
+      "confidence": 0.5,
+      "visible": true,
+      "mode": "text_pixel_inpaint",
+      "risk_score": 0.59,
+      "restore_status": "pending"
+    }
+  ]
+}
