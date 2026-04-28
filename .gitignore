@@ -23,8 +23,9 @@ frontend/.env*.local
 .DS_Store
 Thumbs.db
 
-# v2 runtime output
-v2/output/
+# v2 runtime output / test artifacts
+v2/output*/
+v2/test_*.png
 
 # IDE
 .vscode/
